@@ -158,6 +158,7 @@ export function CalculatorResultsDisplay({ results }: CalculatorResultsProps) {
                         title="Node Purchasing Price"
                         value={formatCurrency(results.purchasePrice, 0)}
                         valueSize="text-7xl"
+                        valueColor="#5fa9a7"
                     />
                     <MetricCard
                         title="Year 1 Total APY"
