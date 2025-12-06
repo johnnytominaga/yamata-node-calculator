@@ -3,7 +3,7 @@
 
 @font-face {
     font-family: "Eurostile";
-    src: url("/fonts/Eurostile LT Std Medium.otf") format("opentype");
+    src: url("/fonts/EurostileLTStdMedium.otf") format("opentype");
     font-weight: 500;
     font-style: normal;
 }
@@ -94,18 +94,18 @@
     --card-foreground: #efefef;
     --popover: #1d1d1d;
     --popover-foreground: #efefef;
-    --primary: #2bd9d9;
+    --primary: #5fa9a7;
     --primary-foreground: #1d1d1d;
     --secondary: #333333;
     --secondary-foreground: #efefef;
     --muted: #333333;
     --muted-foreground: #b3b3b3;
-    --accent: #2bd9d9;
+    --accent: #5fa9a7;
     --accent-foreground: #1d1d1d;
     --destructive: #e3195a;
     --border: #404040;
     --input: #1d1d1d;
-    --ring: #2bd9d9;
+    --ring: #5fa9a7;
     --chart-1: oklch(0.646 0.222 41.116);
     --chart-2: oklch(0.6 0.118 184.704);
     --chart-3: oklch(0.398 0.07 227.392);
@@ -128,18 +128,18 @@
     --card-foreground: #efefef;
     --popover: #1d1d1d;
     --popover-foreground: #efefef;
-    --primary: #2bd9d9;
+    --primary: #5fa9a7;
     --primary-foreground: #1d1d1d;
     --secondary: #333333;
     --secondary-foreground: #efefef;
     --muted: #333333;
     --muted-foreground: #b3b3b3;
-    --accent: #2bd9d9;
+    --accent: #5fa9a7;
     --accent-foreground: #1d1d1d;
     --destructive: #e3195a;
     --border: #404040;
     --input: #1d1d1d;
-    --ring: #2bd9d9;
+    --ring: #5fa9a7;
     --chart-1: oklch(0.488 0.243 264.376);
     --chart-2: oklch(0.696 0.17 162.48);
     --chart-3: oklch(0.769 0.188 70.08);

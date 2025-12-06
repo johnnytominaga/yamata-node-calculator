@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import {
     Select,
@@ -13,11 +12,7 @@ import { Slider } from "@/components/ui/slider";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Label } from "@/components/ui/label";
 import { CalculatorInputs } from "@/lib/types";
-import {
-    currentTierOptions,
-    purchaseTierOptions,
-    expectedFDVOptions,
-} from "@/lib/data-helpers";
+import { purchaseTierOptions, expectedFDVOptions } from "@/lib/data-helpers";
 import { exchanges, exchangeNames } from "@/lib/exchanges";
 
 interface CalculatorSidebarProps {
@@ -43,33 +38,20 @@ export function CalculatorSidebar({
 
     return (
         <div className="w-full lg:w-80 space-y-6 p-6 bg-background">
-            {/* Branding */}
-            <div className="space-y-4">
-                <Image
-                    src="/yamata.png"
-                    alt="Yamata"
-                    width={180}
-                    height={60}
-                    className="w-auto h-12"
-                />
-            </div>
-
-            <div className="border-t border-border" />
-
             {/* Purchase Currency */}
-            <Card className="bg-card border-border">
-                <CardHeader>
+            <Card className="bg-card border-border p-4">
+                <CardHeader className="px-0">
                     <CardTitle className="text-sm font-bold uppercase tracking-wide">
                         Purchase Currency
                     </CardTitle>
                 </CardHeader>
-                <CardContent className="space-y-4">
+                <CardContent className="space-y-4 px-0">
                     <div className="space-y-2">
                         <Label className="text-xs text-muted-foreground">
                             Select Coin To Be Used for Purchase
                         </Label>
                         <Select defaultValue="USDT">
-                            <SelectTrigger>
+                            <SelectTrigger className="w-full">
                                 <SelectValue />
                             </SelectTrigger>
                             <SelectContent>
@@ -123,7 +105,7 @@ export function CalculatorSidebar({
                                 onInputChange({ purchaseTier: parseInt(value) })
                             }
                         >
-                            <SelectTrigger>
+                            <SelectTrigger className="w-full">
                                 <SelectValue />
                             </SelectTrigger>
                             <SelectContent>
@@ -159,7 +141,7 @@ export function CalculatorSidebar({
                                 onInputChange({ expectedFDV: parseInt(value) })
                             }
                         >
-                            <SelectTrigger>
+                            <SelectTrigger className="w-full">
                                 <SelectValue />
                             </SelectTrigger>
                             <SelectContent>
@@ -198,7 +180,7 @@ export function CalculatorSidebar({
                             value={inputs.selectedExchange}
                             onValueChange={handleExchangeChange}
                         >
-                            <SelectTrigger>
+                            <SelectTrigger className="w-full">
                                 <SelectValue />
                             </SelectTrigger>
                             <SelectContent>
@@ -220,6 +202,7 @@ export function CalculatorSidebar({
                                     showAdvanced: checked === true,
                                 })
                             }
+                            className="border border-muted"
                         />
                         <Label
                             htmlFor="advanced"
