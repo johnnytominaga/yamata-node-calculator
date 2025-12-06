@@ -37,7 +37,7 @@ export function CalculatorSidebar({
     };
 
     return (
-        <div className="w-full lg:w-80 space-y-6 p-6 bg-background">
+        <div className="w-full lg:w-80 space-y-6 p-6 bg-background pb-24">
             {/* Purchase Currency */}
             <Card className="bg-card border-border p-4">
                 <CardHeader className="px-0">
