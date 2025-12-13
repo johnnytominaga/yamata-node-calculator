@@ -132,7 +132,7 @@ export default function CalculatorV2Page() {
                                         size="icon"
                                         onClick={decrementQuantity}
                                         disabled={inputs.quantity <= 1}
-                                        className="h-14 w-14 rounded-xl border-border"
+                                        className="h-14 w-14 rounded-xl border-border hover:text-primary"
                                     >
                                         <Minus className="h-5 w-5" />
                                     </Button>
@@ -144,7 +144,7 @@ export default function CalculatorV2Page() {
                                         size="icon"
                                         onClick={incrementQuantity}
                                         disabled={inputs.quantity >= 10}
-                                        className="h-14 w-14 rounded-xl border-border"
+                                        className="h-14 w-14 rounded-xl border-border hover:text-primary"
                                     >
                                         <Plus className="h-5 w-5" />
                                     </Button>
