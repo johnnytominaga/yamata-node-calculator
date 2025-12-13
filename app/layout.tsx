@@ -13,7 +13,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en" className="dark" style={{ colorScheme: "dark" }}>
-            <body className="antialiased bg-[#2E2C2C] text-[#EFEFEF] font-sans">
+            <body className="antialiased font-sans" suppressHydrationWarning>
                 {children}
             </body>
         </html>

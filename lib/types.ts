@@ -3,6 +3,7 @@ export interface TierData {
   Keys: number;
   "Comulative Keys": number;
   "Unit Price": string;
+  "USD Price"?: number;
   "Current Tier": number;
   "Purchase Tier": number;
   "Expected FDV"?: number;
@@ -57,4 +58,36 @@ export interface CalculatorResults {
   // Metadata
   cumulativeKeys: number;
   ethPrice: number;
+}
+
+// V2 Calculator types (USD-based, no ETH)
+export interface CalculatorV2Inputs {
+  currentTier: number;
+  quantity: number;
+  expectedFDV: number;
+  nodesSoldYear1: number;
+  selectedExchange: string;
+  monthlyVolume: number;
+  feePercentage: number;
+}
+
+export interface CalculatorV2Results {
+  // Total investment
+  totalInvestment: number;
+
+  // Year 1 rewards
+  year1BaseRewards: number;
+  year1FeeRewards: number;
+  year1TotalRewards: number;
+
+  // Per node breakdowns
+  baseRewardPerNode: number;
+  feeRewardPerNode: number;
+
+  // Token amounts
+  year1TokensPerNode: number;
+  year1TotalTokens: number;
+
+  // ROI
+  year1APY: number;
 }

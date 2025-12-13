@@ -9,7 +9,8 @@
     "__EMPTY_2": 0,
     "Total Supply": 1000000000,
     "Year": 1,
-    "Total Rewards per Year": 100000000
+    "Total Rewards per Year": 100000000,
+    "USD Price": 525
   },
   {
     "Tier": 2,
@@ -18,10 +19,11 @@
     "Unit Price": "0.16",
     "Current Tier": 2,
     "Purchase Tier": 2,
-    "Expected FDV": 80000000,
     "__EMPTY_2": 0.08,
     "Year": 2,
-    "Total Rewards per Year": 50000000
+    "Total Rewards per Year": 50000000,
+    "USD Price": 560,
+    "Expected FDV": 80000000
   },
   {
     "Tier": 3,
@@ -30,10 +32,11 @@
     "Unit Price": "0.17",
     "Current Tier": 3,
     "Purchase Tier": 3,
-    "Expected FDV": 250000000,
     "__EMPTY_2": 0.25,
     "Year": 3,
-    "Total Rewards per Year": 25000000
+    "Total Rewards per Year": 25000000,
+    "USD Price": 595,
+    "Expected FDV": 250000000
   },
   {
     "Tier": 4,
@@ -42,10 +45,11 @@
     "Unit Price": "0.18",
     "Current Tier": 4,
     "Purchase Tier": 4,
-    "Expected FDV": 500000000,
     "__EMPTY_2": 0.5,
     "Year": 4,
-    "Total Rewards per Year": 12500000
+    "Total Rewards per Year": 12500000,
+    "USD Price": 630,
+    "Expected FDV": 500000000
   },
   {
     "Tier": 5,
@@ -54,10 +58,11 @@
     "Unit Price": "0.20",
     "Current Tier": 5,
     "Purchase Tier": 5,
-    "Expected FDV": 750000000,
     "__EMPTY_2": 0.75,
     "Year": 5,
-    "Total Rewards per Year": 12500000
+    "Total Rewards per Year": 12500000,
+    "USD Price": 700,
+    "Expected FDV": 750000000
   },
   {
     "Tier": 6,
@@ -66,8 +71,9 @@
     "Unit Price": "0.21",
     "Current Tier": 6,
     "Purchase Tier": 6,
-    "Expected FDV": 1000000000,
-    "__EMPTY_2": 1
+    "__EMPTY_2": 1,
+    "USD Price": 735,
+    "Expected FDV": 1000000000
   },
   {
     "Tier": 7,
@@ -76,8 +82,9 @@
     "Unit Price": "0.22",
     "Current Tier": 7,
     "Purchase Tier": 7,
-    "Expected FDV": 2000000000,
-    "__EMPTY_2": 2
+    "__EMPTY_2": 2,
+    "USD Price": 770,
+    "Expected FDV": 2000000000
   },
   {
     "Tier": 8,
@@ -86,8 +93,9 @@
     "Unit Price": "0.24",
     "Current Tier": 8,
     "Purchase Tier": 8,
-    "Expected FDV": 5000000000,
-    "__EMPTY_2": 5
+    "__EMPTY_2": 5,
+    "USD Price": 840,
+    "Expected FDV": 5000000000
   },
   {
     "Tier": 9,
@@ -96,8 +104,9 @@
     "Unit Price": "0.26",
     "Current Tier": 9,
     "Purchase Tier": 9,
-    "Expected FDV": 10000000000,
-    "__EMPTY_2": 10
+    "__EMPTY_2": 10,
+    "USD Price": 910,
+    "Expected FDV": 10000000000
   },
   {
     "Tier": 10,
@@ -106,8 +115,9 @@
     "Unit Price": "0.27",
     "Current Tier": 10,
     "Purchase Tier": 10,
-    "Expected FDV": 25000000000,
-    "__EMPTY_2": 25
+    "__EMPTY_2": 25,
+    "USD Price": 945,
+    "Expected FDV": 25000000000
   },
   {
     "Tier": 11,
@@ -116,8 +126,9 @@
     "Unit Price": "0.29",
     "Current Tier": 11,
     "Purchase Tier": 11,
-    "Expected FDV": 50000000000,
-    "__EMPTY_2": 50
+    "__EMPTY_2": 50,
+    "USD Price": 1015,
+    "Expected FDV": 50000000000
   },
   {
     "Tier": 12,
@@ -125,7 +136,8 @@
     "Comulative Keys": 31823,
     "Unit Price": "0.31",
     "Current Tier": 12,
-    "Purchase Tier": 12
+    "Purchase Tier": 12,
+    "USD Price": 1085
   },
   {
     "Tier": 13,
@@ -133,7 +145,8 @@
     "Comulative Keys": 33319,
     "Unit Price": "0.34",
     "Current Tier": 13,
-    "Purchase Tier": 13
+    "Purchase Tier": 13,
+    "USD Price": 1190
   },
   {
     "Tier": 14,
@@ -141,7 +154,8 @@
     "Comulative Keys": 34698,
     "Unit Price": "0.36",
     "Current Tier": 14,
-    "Purchase Tier": 14
+    "Purchase Tier": 14,
+    "USD Price": 1260
   },
   {
     "Tier": 15,
@@ -149,7 +163,8 @@
     "Comulative Keys": 35968,
     "Unit Price": "0.38",
     "Current Tier": 15,
-    "Purchase Tier": 15
+    "Purchase Tier": 15,
+    "USD Price": 1330
   },
   {
     "Tier": 16,
@@ -157,7 +172,8 @@
     "Comulative Keys": 37138,
     "Unit Price": "0.41",
     "Current Tier": 16,
-    "Purchase Tier": 16
+    "Purchase Tier": 16,
+    "USD Price": 1435
   },
   {
     "Tier": 17,
@@ -165,7 +181,8 @@
     "Comulative Keys": 38216,
     "Unit Price": "0.44",
     "Current Tier": 17,
-    "Purchase Tier": 17
+    "Purchase Tier": 17,
+    "USD Price": 1540
   },
   {
     "Tier": 18,
@@ -173,7 +190,8 @@
     "Comulative Keys": 39209,
     "Unit Price": "0.47",
     "Current Tier": 18,
-    "Purchase Tier": 18
+    "Purchase Tier": 18,
+    "USD Price": 1645
   },
   {
     "Tier": 19,
@@ -181,7 +199,8 @@
     "Comulative Keys": 40124,
     "Unit Price": "0.50",
     "Current Tier": 19,
-    "Purchase Tier": 19
+    "Purchase Tier": 19,
+    "USD Price": 1750
   },
   {
     "Tier": 20,
@@ -189,7 +208,8 @@
     "Comulative Keys": 40967,
     "Unit Price": "0.54",
     "Current Tier": 20,
-    "Purchase Tier": 20
+    "Purchase Tier": 20,
+    "USD Price": 1890
   },
   {
     "Tier": 21,
@@ -197,7 +217,8 @@
     "Comulative Keys": 41744,
     "Unit Price": "0.57",
     "Current Tier": 21,
-    "Purchase Tier": 21
+    "Purchase Tier": 21,
+    "USD Price": 1995
   },
   {
     "Tier": 22,
@@ -205,7 +226,8 @@
     "Comulative Keys": 42460,
     "Unit Price": "0.61",
     "Current Tier": 22,
-    "Purchase Tier": 22
+    "Purchase Tier": 22,
+    "USD Price": 2135
   },
   {
     "Tier": 23,
@@ -213,7 +235,8 @@
     "Comulative Keys": 43119,
     "Unit Price": "0.66",
     "Current Tier": 23,
-    "Purchase Tier": 23
+    "Purchase Tier": 23,
+    "USD Price": 2310
   },
   {
     "Tier": 24,
@@ -221,7 +244,8 @@
     "Comulative Keys": 43727,
     "Unit Price": "0.70",
     "Current Tier": 24,
-    "Purchase Tier": 24
+    "Purchase Tier": 24,
+    "USD Price": 2450
   },
   {
     "Tier": 25,
@@ -229,7 +253,8 @@
     "Comulative Keys": 44287,
     "Unit Price": "0.75",
     "Current Tier": 25,
-    "Purchase Tier": 25
+    "Purchase Tier": 25,
+    "USD Price": 2625
   },
   {
     "Tier": 26,
@@ -237,7 +262,8 @@
     "Comulative Keys": 44803,
     "Unit Price": "0.80",
     "Current Tier": 26,
-    "Purchase Tier": 26
+    "Purchase Tier": 26,
+    "USD Price": 2800
   },
   {
     "Tier": 27,
@@ -245,7 +271,8 @@
     "Comulative Keys": 45278,
     "Unit Price": "0.86",
     "Current Tier": 27,
-    "Purchase Tier": 27
+    "Purchase Tier": 27,
+    "USD Price": 3010
   },
   {
     "Tier": 28,
@@ -253,7 +280,8 @@
     "Comulative Keys": 45716,
     "Unit Price": "0.92",
     "Current Tier": 28,
-    "Purchase Tier": 28
+    "Purchase Tier": 28,
+    "USD Price": 3220
   },
   {
     "Tier": 29,
@@ -261,7 +289,8 @@
     "Comulative Keys": 46119,
     "Unit Price": "0.98",
     "Current Tier": 29,
-    "Purchase Tier": 29
+    "Purchase Tier": 29,
+    "USD Price": 3430
   },
   {
     "Tier": 30,
@@ -269,7 +298,8 @@
     "Comulative Keys": 46491,
     "Unit Price": "1.05",
     "Current Tier": 30,
-    "Purchase Tier": 30
+    "Purchase Tier": 30,
+    "USD Price": 3675
   },
   {
     "Tier": 31,
@@ -277,7 +307,8 @@
     "Comulative Keys": 46833,
     "Unit Price": "1.12",
     "Current Tier": 31,
-    "Purchase Tier": 31
+    "Purchase Tier": 31,
+    "USD Price": 3920
   },
   {
     "Tier": 32,
@@ -285,7 +316,8 @@
     "Comulative Keys": 47148,
     "Unit Price": "1.20",
     "Current Tier": 32,
-    "Purchase Tier": 32
+    "Purchase Tier": 32,
+    "USD Price": 4200
   },
   {
     "Tier": 33,
@@ -293,7 +325,8 @@
     "Comulative Keys": 47439,
     "Unit Price": "1.28",
     "Current Tier": 33,
-    "Purchase Tier": 33
+    "Purchase Tier": 33,
+    "USD Price": 4480
   },
   {
     "Tier": 34,
@@ -301,7 +334,8 @@
     "Comulative Keys": 47707,
     "Unit Price": "1.37",
     "Current Tier": 34,
-    "Purchase Tier": 34
+    "Purchase Tier": 34,
+    "USD Price": 4795
   },
   {
     "Tier": 35,
@@ -309,7 +343,8 @@
     "Comulative Keys": 47954,
     "Unit Price": "1.46",
     "Current Tier": 35,
-    "Purchase Tier": 35
+    "Purchase Tier": 35,
+    "USD Price": 5110
   },
   {
     "Tier": 36,
@@ -317,7 +352,8 @@
     "Comulative Keys": 48181,
     "Unit Price": "1.57",
     "Current Tier": 36,
-    "Purchase Tier": 36
+    "Purchase Tier": 36,
+    "USD Price": 5495
   },
   {
     "Tier": 37,
@@ -325,7 +361,8 @@
     "Comulative Keys": 48390,
     "Unit Price": "1.67",
     "Current Tier": 37,
-    "Purchase Tier": 37
+    "Purchase Tier": 37,
+    "USD Price": 5845
   },
   {
     "Tier": 38,
@@ -333,7 +370,8 @@
     "Comulative Keys": 48583,
     "Unit Price": "1.79",
     "Current Tier": 38,
-    "Purchase Tier": 38
+    "Purchase Tier": 38,
+    "USD Price": 6265
   },
   {
     "Tier": 39,
@@ -341,7 +379,8 @@
     "Comulative Keys": 48761,
     "Unit Price": "1.91",
     "Current Tier": 39,
-    "Purchase Tier": 39
+    "Purchase Tier": 39,
+    "USD Price": 6685
   },
   {
     "Tier": 40,
@@ -349,7 +388,8 @@
     "Comulative Keys": 48925,
     "Unit Price": "2.05",
     "Current Tier": 40,
-    "Purchase Tier": 40
+    "Purchase Tier": 40,
+    "USD Price": 7175
   },
   {
     "Tier": 41,
@@ -357,7 +397,8 @@
     "Comulative Keys": 49076,
     "Unit Price": "2.19",
     "Current Tier": 41,
-    "Purchase Tier": 41
+    "Purchase Tier": 41,
+    "USD Price": 7665
   },
   {
     "Tier": 42,
@@ -365,7 +406,8 @@
     "Comulative Keys": 49215,
     "Unit Price": "2.34",
     "Current Tier": 42,
-    "Purchase Tier": 42
+    "Purchase Tier": 42,
+    "USD Price": 8190
   },
   {
     "Tier": 43,
@@ -373,7 +415,8 @@
     "Comulative Keys": 49343,
     "Unit Price": "2.50",
     "Current Tier": 43,
-    "Purchase Tier": 43
+    "Purchase Tier": 43,
+    "USD Price": 8750
   },
   {
     "Tier": 44,
@@ -381,7 +424,8 @@
     "Comulative Keys": 49461,
     "Unit Price": "2.68",
     "Current Tier": 44,
-    "Purchase Tier": 44
+    "Purchase Tier": 44,
+    "USD Price": 9380
   },
   {
     "Tier": 45,
@@ -389,7 +433,8 @@
     "Comulative Keys": 49570,
     "Unit Price": "2.86",
     "Current Tier": 45,
-    "Purchase Tier": 45
+    "Purchase Tier": 45,
+    "USD Price": 10010
   },
   {
     "Tier": 46,
@@ -397,7 +442,8 @@
     "Comulative Keys": 49670,
     "Unit Price": "3.06",
     "Current Tier": 46,
-    "Purchase Tier": 46
+    "Purchase Tier": 46,
+    "USD Price": 10710
   },
   {
     "Tier": 47,
@@ -405,7 +451,8 @@
     "Comulative Keys": 49762,
     "Unit Price": "3.27",
     "Current Tier": 47,
-    "Purchase Tier": 47
+    "Purchase Tier": 47,
+    "USD Price": 11445
   },
   {
     "Tier": 48,
@@ -413,7 +460,8 @@
     "Comulative Keys": 49848,
     "Unit Price": "3.50",
     "Current Tier": 48,
-    "Purchase Tier": 48
+    "Purchase Tier": 48,
+    "USD Price": 12250
   },
   {
     "Tier": 49,
@@ -421,7 +469,8 @@
     "Comulative Keys": 49927,
     "Unit Price": "3.74",
     "Current Tier": 49,
-    "Purchase Tier": 49
+    "Purchase Tier": 49,
+    "USD Price": 13090
   },
   {
     "Tier": 50,
@@ -429,6 +478,7 @@
     "Comulative Keys": 50000,
     "Unit Price": "4.00",
     "Current Tier": 50,
-    "Purchase Tier": 50
+    "Purchase Tier": 50,
+    "USD Price": 14000
   }
 ]

@@ -32,6 +32,11 @@ export function getPurchasePrice(tier: number): number {
   return data ? parseFloat(data['Unit Price']) : 0;
 }
 
+export function getPurchasePriceUSD(tier: number): number {
+  const data = tierData.find(d => d['Purchase Tier'] === tier);
+  return data?.['USD Price'] || 0;
+}
+
 export function getCumulativeKeys(tier: number): number {
   const data = getTierData(tier);
   return data ? data['Comulative Keys'] : 0;
